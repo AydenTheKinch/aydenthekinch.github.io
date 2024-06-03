@@ -17,12 +17,7 @@
           </label>
   
           <div class="trigger">
-            {%- for slideshow in site.data.settings -%}
-            {%- if slideshow[1].url -%}
-            <a class="page-link" href="{{site.url}}/{{ slideshow[1].url }}">{{ slideshow[1].name | escape }}</a>
-            {%- endif -%}
-            {%- endfor -%}
-            <a class="page-link" href="https://github.com/AydenTheKinch/aydenthekinch.github.io">Admin (GitHub)</a>
+            <a class="page-link" href="https://github.com/AydenTheKinch/aydenthekinch.github.io">GitHub</a>
           </div>
         </nav>
       {%- endif -%}

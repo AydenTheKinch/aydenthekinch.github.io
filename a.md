@@ -1,6 +1,6 @@
 ---
 title: Archie
-layout: slideshow_image
+layout: slideshow
 screen: a
 ---
 

@@ -8,3 +8,8 @@ b:
   update: 10
   folders: bartholomew
   url: b
+c:
+  name: Charlie
+  update: 30
+  folders: videos
+  url: c

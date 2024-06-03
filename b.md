@@ -1,5 +1,5 @@
 ---
 title: Bartholomew
-layout: slideshow_image
+layout: slideshow
 screen: b
 ---
