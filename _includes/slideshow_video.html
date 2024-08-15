@@ -1,5 +1,5 @@
-<div class="mySlides fade{% if first %} first-slide{% endif %}" id="video">
-    <video muted autoplay nopictureinpicture>
+<div class="mySlides fade{% if first %} first-slide{% endif %} video">
+    <video muted playsinline loop nopictureinpicture class="videoPlayer">
         <source src="{{ file.path | relative_url }}">
     </video>
 </div>

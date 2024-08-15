@@ -1,3 +1,12 @@
-<div class="mySlides fade{% if first %} first-slide{% endif %}">
-    <img src="{{ file.path | relative_url }}" alt="Slideshow image">
+<div class="mySlides fade{% if first %} first-slide{% endif %} link">
+    <iframe id="{{ file.path }}" alt="Slideshow link"></iframe>
 </div>
+
+<script>
+    fetch("{{ file.path | relative_url }}")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('{{file.path}}').src = data.trim();
+        })
+        .catch(error => console.error('Error fetching the link:', error));
+</script>

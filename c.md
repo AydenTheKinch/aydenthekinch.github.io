@@ -1,5 +1,5 @@
 ---
 title: Charlie
-layout: slideshow_test
+layout: slideshow
 screen: c
 ---

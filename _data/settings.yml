@@ -10,6 +10,6 @@ b:
   url: b
 c:
   name: Charlie
-  update: 30
+  update: 15
   folders: videos
   url: c
