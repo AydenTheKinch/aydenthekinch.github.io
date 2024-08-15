@@ -10,15 +10,7 @@ layout: fullscreen
     {% for file in image_files %}
         {% assign folder_with_slash = folder | append: '/' %}
         {% if file.path contains folder_with_slash %}
-            {% if file.path contains ".png" or file.path contains ".jpg" %}
-                {% include slideshow_image.html %}
-            {% endif %}
-            {% if file.path contains ".mp4" %}
-                {% include slideshow_video.html %}
-            {% endif %}
-            {% if file.path contains ".txt" %}
-                {% include slideshow_link.html %}
-            {% endif %}
+            {% include slideshow_image.html %}
             {% assign first = false %}
         {% endif %}
     {% endfor %}

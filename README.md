@@ -49,7 +49,9 @@ The TV's browser can render .png, .webp, .gif, .apng, .pdf, .ico, and .bmp files
 
 ### Ordering Slides
 
-Slides are automatically organized alphanumerically in the slideshow folders. If you want to change the ordering, you should add 1a, 1b, 1c... 2a, 2b ... etc. to the front of each file name. If a view is given multiple folders to pull from, it will show all slides in the first folder first and then show all the slides in the second folder before looping. 
+Slides are automatically organized alphanumerically in the slideshow folders. If you want to change the ordering, you should add 01, 02, 03... 10, 11... 20, 21, etc. to the front of each file name. If a view is given multiple folders to pull from, it will show all slides in the first folder first and then show all the slides in the second folder before looping. 
+
+- When saving a PowerPoint file as a collection of pngs, they are automatically named Slide1, Slide2, Slide3... Slide10, Slide11. In order for the browser to order the images properly, you must add a 0 in front of each single digit slide number (i.e. Slide01, Slide02, etc.). If you do not add a 0, it will order them as Slide1, Slide10, Slide11... Slide 19, Slide2, Slide 20.
 
 ### Adding Views
 
